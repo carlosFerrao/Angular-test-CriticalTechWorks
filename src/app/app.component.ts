@@ -31,16 +31,6 @@ export class AppComponent {
       this.locations.splice(event.currentIndex - 1, 1,deleteItem[0]);
     }
   }
-
-  // move = function (old_index, new_index) {
-  //   if (new_index >= this.length) {
-  //     var k = new_index - this.length;
-  //     while ((k--) + 1) {
-  //         this.push(undefined);
-  //     }
-  //   }
-  //   locations.splice(new_index, 0, locations.splice(old_index, 1)[0]);
-  // };
 }
 
 
